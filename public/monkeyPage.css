@@ -33,6 +33,18 @@ div.gap {
     box-shadow: none;
 }
 
+div.polaroid-home header {
+    font-size: 225%;
+    padding-left: 20px;
+    color: #343a40
+}
+
+div.polaroid-home p {
+    font-size: 200%;
+    padding-left: 20px;
+    color: #343a40
+}
+
 div.polaroid {
     width: 33.33%;
     background-color: white;
