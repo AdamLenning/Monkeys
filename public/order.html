@@ -8,7 +8,7 @@
         <script src="orderScript.js"></script>
     </head>
 
-    <body background="images/background.jpg" class="body">
+    <body class="img-body">
         
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav">
@@ -19,9 +19,10 @@
             </ul>
         </nav>
 
-        <h1>Order Now!</h1>
+        <h1 class="myH1">Order Now!</h1>
 
         <div class="flex-container">
+            <div>
                 <form>
                     First name:<br>
                     <input type="text" name="firstname"><br>
@@ -41,6 +42,10 @@
                     <input type="button" onclick="alert('This feature has not yet been implemented')" value="Submit">
                     <input type="reset" onclick="$('.sum').html('$0.00')">
                 </form>
+            </div>
+            <div>
+                <img src="images/orderpic.jpg">
+            </div>
         </div>
 
     </body>
