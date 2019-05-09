@@ -2,10 +2,13 @@
 <html>
     <head>
         <title>Order Now</title>
+        <link rel="stylesheet" type="text/css" href="orderStyle.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="orderScript.js"></script>
     </head>
 
-    <body background="images/background.jpg">
+    <body background="images/background.jpg" class="body">
         
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav">
@@ -17,6 +20,28 @@
         </nav>
 
         <h1>Order Now!</h1>
+
+        <div class="flex-container">
+                <form>
+                    First name:<br>
+                    <input type="text" name="firstname"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname"><br>
+                    Monkey for Hire:<br>
+                    <input type="checkbox" class="checkbox" name="business1" value="1">Business 1<br>
+                    <input type="checkbox" class="checkbox" name="business2" value="1">Busness 2<br>
+                    <input type="checkbox" class="checkbox" name="business3" value="1">Business 3<br>
+                    <input type="checkbox" class="checkbox" name="business4" value="1">Busness 4<br>
+                    <input type="checkbox" class="checkbox" name="casual1" value="1">Casual 1<br>
+                    <input type="checkbox" class="checkbox" name="casual2" value="1">Casual 2<br>
+                    <input type="checkbox" class="checkbox" name="casual3" value="1">Casual 1<br>
+                    <input type="checkbox" class="checkbox" name="casual4" value="1">Casual 2<br>
+                    Total Price:
+                    <p class="sum">0</p>
+                    <input type="button" onclick="alert('This feature has not yet been implemented')" value="Submit">
+                    <input type="reset">
+                </form>
+        </div>
 
     </body>
 </html>
