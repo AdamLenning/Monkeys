@@ -93,3 +93,7 @@ div img {
     font-size: 2em;
     color: black;
   }
+  
+  div.name {
+      text-align: end;
+  }
