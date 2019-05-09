@@ -25,7 +25,7 @@ div.polaroid-home {
     width: 100%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 20em;
+    height: 25em;
 }
 
 div.gap {
@@ -84,7 +84,13 @@ div img {
   }
 
   div p {
-    padding: 0;
-    font-size: 2em;
-    color: white;
+    padding: 20px;
+    font-size: 200%;
+    color:  #343a40;
+  }
+
+  div header {
+    padding: 20px;
+    font-size: 225%;
+    color: #343a40
   }
